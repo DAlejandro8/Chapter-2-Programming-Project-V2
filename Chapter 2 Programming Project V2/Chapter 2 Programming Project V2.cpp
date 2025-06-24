@@ -16,9 +16,9 @@ int main()
 
    int Year10 = 10 ;
 
-   int Level5 = Year5 * Rate;
-   int Level7 = Year7 * Rate;
-   int Level10 = Year10 * Rate;
+   double Level5 = Year5 * Rate;
+   double Level7 = Year7 * Rate;
+   double Level10 = Year10 * Rate;
 
 
 
