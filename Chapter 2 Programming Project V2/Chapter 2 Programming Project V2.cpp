@@ -5,16 +5,30 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
+   
+
+   double  Rate = 1.5 ;
+
+   int Year5 = 5;
+
+   int Year7 = 7;
+
+   int Year10 = 10 ;
+
+   int Level5 = Year5 * Rate;
+   int Level7 = Year7 * Rate;
+   int Level10 = Year10 * Rate;
+
+
+
+
+    std::cout << "In " << Year5 << " years, the ocean will be " << Level5 << " millimeters higher \n";
+    std::cout << "In " << Year7 << " years, the ocean will be " << Level7 << " millimeters higher \n";
+    std::cout << "In " << Year10 << " years, the ocean will be " << Level10 << " millimeters higher \n";
+
+    
+
+    return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
