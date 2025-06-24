@@ -20,8 +20,8 @@ int main()
 
  
 
-    std::cout << "The distance the car can travel on one tank of gas when driven in town is " << Distancet << " miles." std::endl;
-    std::cout << "The distance the car can travel on one tank of gas when driven on the highway is " << Distanceh << " miles." std::endl;
+    std::cout << "The distance, in miles, the car can travel on one tank of gas when driven in town is " << Distancet <<  std::endl;
+    std::cout << "The distance, in miles, the car can travel on one tank of gas when driven on the highway is " << Distanceh <<  std::endl;
 
 
 
